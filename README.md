@@ -53,10 +53,7 @@ If using a modern compiler like GCC or Code::Blocks:
 Compile and run:
 
 ```bash
-g++ infix_to_postfix.cpp -o postfix
-./postfix
 
-⚠️ Note: This code uses some non-standard features from Turbo C++ (like clrscr, gotoxy, etc.), which may require cleanup for modern compilers.
 
 ✏️ TODOs
 Improve compatibility with modern compilers (remove conio.h)
